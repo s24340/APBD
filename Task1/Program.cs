@@ -4,17 +4,17 @@ class Program
     static void Main(string[] args)
     {
         int[] numbers = { 5, 10, 101, 1 };
-        double average = CalculateAverage(numbers);
+        double average = CalculateAverageConflict(numbers);
         Console.WriteLine("Średnia wartość: " + average);
         Console.WriteLine("Maksymalna wartość: " + MaxInt(numbers));
     }
 
-    static double CalculateAverage(int[] numbers)
+    static double CalculateAverageConflict(int[] numbers)
     {
         int sum = 0;
-        for (int i = 0; i < numbers.Length; i++)
+        for (int z = 0; z < numbers.Length; z++)
         {
-            sum = sum + numbers[i];
+            sum = sum + numbers[z];
         }
         return (double)sum / numbers.Length;
     }
