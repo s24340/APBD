@@ -12,9 +12,9 @@ class Program
     static double CalculateAverage(int[] numbers)
     {
         int sum = 0;
-        for (int i = 0; i < numbers.Length; i++)
+        for (int x = 0; x < numbers.Length; x++)
         {
-            sum = sum + numbers[i];
+            sum = sum + numbers[x];
         }
         return (double)sum / numbers.Length;
     }
