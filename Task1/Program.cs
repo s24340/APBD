@@ -4,12 +4,12 @@ class Program
     static void Main(string[] args)
     {
         int[] numbers = { 5, 10, 101, 1 };
-        double average = CalculateAverage(numbers);
+        double average = CalculateAverageX(numbers);
         Console.WriteLine("Średnia wartość: " + average);
         Console.WriteLine("Maksymalna wartość: " + MaxInt(numbers));
     }
 
-    static double CalculateAverage(int[] numbers)
+    static double CalculateAverageX(int[] numbers)
     {
         int sum = 0;
         for (int x = 0; x < numbers.Length; x++)
